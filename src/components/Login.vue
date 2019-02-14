@@ -52,6 +52,7 @@ export default {
         if (vali === true) {
           const { data: res } = await this.$http.post('login', this.ruleForm)
           if (res.meta.status === 200) {
+            window.sessionStorage.setItem('token', res.data.token)
             this.$router.push('/home')
           }
         }
