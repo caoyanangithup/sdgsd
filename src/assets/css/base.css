@@ -5,3 +5,23 @@ body,h1,h2,h3,h4,h5,h6,dl,dd,dt,ul,li{
 html,body{
   height: 100%;
 }
+.el-aside .tac .el-submenu__title{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.el-aside .tac .el-submenu__title i{
+  margin-right: 10px;
+}
+.el-aside .el-row .el-submenu__title{
+  font-size: 13px;
+}
+.el-aside .el-menu-item{
+  font-size: 13px;
+}
+.el-aside .fold{
+  font-size: 12px;
+}
+.el-aside .el-menu-item-group__title{
+  height: 0;
+}

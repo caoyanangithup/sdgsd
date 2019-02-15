@@ -7,12 +7,12 @@
       <el-form :model="ruleForm" :rules="rules" ref="ruleForm" class="demo-ruleForm">
         <el-form-item prop="username">
           <el-input v-model="ruleForm.username">
-            <span slot="prefix" class="iconfont icon-dengluyonghuming"></span>
+            <span slot="prefix" class="iconfont icon-user"></span>
           </el-input>
         </el-form-item>
         <el-form-item prop="password">
           <el-input type="password" v-model="ruleForm.password">
-            <span slot="prefix" class="iconfont icon-mima"></span>
+            <span slot="prefix" class="iconfont icon-3702mima"></span>
           </el-input>
         </el-form-item>
       </el-form>
@@ -31,7 +31,7 @@ export default {
   data() {
     return {
       ruleForm: {
-        username: '',
+        username: 'admin',
         password: ''
       },
       rules: {
