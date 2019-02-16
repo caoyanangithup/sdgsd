@@ -1,27 +1,48 @@
-body,h1,h2,h3,h4,h5,h6,dl,dd,dt,ul,li{
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+dl,
+dd,
+dt,
+ul,
+li {
   margin: 0;
   padding: 0;
 }
-html,body{
+html,
+body {
   height: 100%;
 }
-.el-aside .tac .el-submenu__title{
+.el-aside .tac .el-submenu__title {
   display: flex;
   justify-content: flex-start;
   align-items: center;
 }
-.el-aside .tac .el-submenu__title i{
+.el-aside .tac .el-submenu__title i {
   margin-right: 10px;
 }
-.el-aside .el-row .el-submenu__title{
+.el-aside .el-row .el-submenu__title {
   font-size: 13px;
 }
-.el-aside .el-menu-item{
+.el-aside .el-menu-item {
   font-size: 13px;
 }
-.el-aside .fold{
+.el-aside .fold {
   font-size: 12px;
 }
-.el-aside .el-menu-item-group__title{
+.el-aside .el-menu-item-group__title {
   height: 0;
+}
+/* 卡片 */
+.box-card {
+  margin-top: 15px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15) !important;
+}
+.box-card .el-table{
+  font-size: 12px;
+  margin-top: 15px;
 }

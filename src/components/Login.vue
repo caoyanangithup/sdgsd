@@ -11,7 +11,7 @@
           </el-input>
         </el-form-item>
         <el-form-item prop="password">
-          <el-input type="password" v-model="ruleForm.password">
+          <el-input type="password" v-model="ruleForm.password" @keyup.enter.native="login">
             <span slot="prefix" class="iconfont icon-3702mima"></span>
           </el-input>
         </el-form-item>
